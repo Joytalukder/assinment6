@@ -70,7 +70,7 @@ const addAlert = (name) => {
     alert(`${name.name} has been added to the cart.`);
 };
 
-// Load category left side buttons name from API
+// Load category left side button name from API
 const loadCategories =()=> { 
     fetch('https://openapi.programming-hero.com/api/categories')
     .then(res => res.json())
